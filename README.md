@@ -25,3 +25,95 @@ Linux dotfiles configs
     </p>
 
 </div>
+
+## 1
+git clone --depth=1 https://github.com/JaKooLit/Hyprland-Dots.git
+cd Hyprland-Dots
+
+chmod +x copy.sh
+./copy.sh
+
+
+
+chmod +x release.sh
+./release.sh
+
+
+chmod +x upgrade.sh
+./upgrade.sh
+
+
+git clone git@github.com:Ghost1nTh3SSH/dotfiles.git
+
+cd dotfiles
+./installer.sh
+----
+
+
+git clone https://github.com/notusknot/dotfiles
+cd dotfiles
+./install.sh
+
+
+
+-------
+
+### Hyper 
+
+git clone --depth=1 https://github.com/JaKooLit/Debian-Hyprland.git
+cd Debian-Hyprland
+chmod +x install.sh
+./install.sh
+
+chsh -s $(which zsh)
+zsh
+source ~/.zshrc
+
+
+
+
+
+```bash
+ ~/.zshrc
+ZSH_THEME="desired theme"
+```
+
+sudo chmod +s $(which brightnessctl)
+
+
+> 2
+
+
+git clone --depth=1 https://github.com/JaKooLit/Hyprland-Dots.git
+cd Hyprland-Dots
+
+
+chmod +x copy.sh
+./copy.sh
+
+
+
+
+
+chmod +x release.sh
+./release.sh
+
+chmod +x upgrade.sh
+./upgrade.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
